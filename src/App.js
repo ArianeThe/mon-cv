@@ -6,11 +6,15 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import Contact from './components/Contact';
 import './styles/App.scss';
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (
     <Router>
       <div className="app">
+        <Helmet>
+          <title>THEBAULT Ariane CV</title>
+        </Helmet>
         <Navbar />
         <main className="main-content">
           <Routes>
