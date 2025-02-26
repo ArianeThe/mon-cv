@@ -45,7 +45,9 @@ function Skills() {
       skills: [
         { name: "Java", level: 3, description: "Bonne maîtrise" },
         { name: "PHP", level: 2, description: "Pratique régulière" },
-        { name: "API REST", level: 2, description: "Bonne compréhension" }
+        { name: "API REST", level: 2, description: "Bonne compréhension" },
+        { name: "Spring", level: 3, description: "Framework Java - Maîtrise avancée" },
+        { name: "Symfony", level: 3, description: "Framework PHP - Maîtrise avancée" }
       ]
     },
     {
