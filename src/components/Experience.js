@@ -72,7 +72,7 @@ function Experience() {
         description: [
           "Développement d'un site permettant l'accès à diverses API",
           "Recueil du besoin",
-          "Maquettage et rédaction sur Figma",
+          "Maquettage et rédaction sur Penpot",
           "Développement Front et back End"
         ],
         technologies: ["PHP", "Symfony", "MySQL", "GitLab"]

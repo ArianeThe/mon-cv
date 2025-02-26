@@ -6,7 +6,8 @@ import {
   faPalette, 
   faTools,
   faServer,
-  faStar as faStarSolid 
+  faStar as faStarSolid, 
+  faUsers
 } from '@fortawesome/free-solid-svg-icons';
 import { faStar as faStarRegular } from '@fortawesome/free-regular-svg-icons';
 import '../styles/Skills.scss';
@@ -45,9 +46,7 @@ function Skills() {
       skills: [
         { name: "Java", level: 3, description: "Bonne maîtrise" },
         { name: "PHP", level: 2, description: "Pratique régulière" },
-        { name: "API REST", level: 2, description: "Bonne compréhension" },
-        { name: "Spring", level: 3, description: "Framework Java - Maîtrise avancée" },
-        { name: "Symfony", level: 3, description: "Framework PHP - Maîtrise avancée" }
+        { name: "API REST", level: 2, description: "Bonne compréhension" }
       ]
     },
     {
@@ -68,13 +67,33 @@ function Skills() {
         { name: "VS Code", level: 3, description: "Maîtrise avancée" },
         { name: "AWS", level: 1, description: "En cours d'apprentissage" }
       ]
+    },
+    {
+      id: 5,
+      name: "Frameworks",
+      icon: faTools,
+      skills: [
+        { name: "Spring", level: 3, description: "Framework Java - Maîtrise avancée" },
+        { name: "Symfony", level: 3, description: "Framework PHP - Maîtrise avancée" }
+      ]
+    },
+    {
+      id: 6,
+      name: "Soft Skills",
+      icon: faUsers,
+      skills: [
+        { name: "Travail d'équipe", level: 3, description: "Excellente capacité de collaboration" },
+        { name: "Communication", level: 3, description: "Communication claire et efficace" },
+        { name: "Résolution de problèmes", level: 3, description: "Approche analytique et créative" },
+        { name: "Adaptabilité", level: 3, description: "Grande capacité d'adaptation aux changements" }
+      ]
     }
   ];
 
   return (
     <div className="skills">
       <Helmet>
-        <title>Compétences - THEBAULT Ariane</title>
+        <title> THEBAULT Ariane</title>
       </Helmet>
 
       <h2>Compétences Techniques</h2>

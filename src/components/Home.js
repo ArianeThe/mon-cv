@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import '../styles/Home.scss';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -29,23 +30,39 @@ function Home() {
       <div className="about-section">
         <h3>À propos de moi</h3>
         <p>
-        Forte de mes deux titres professionnels de Concepteur Développeur d'Application et de Développeur Web et Web Mobile, je pars à la conquête du monde de dév ! </p>
+        Forte de mes deux titres professionnels de Concepteur Développeur d'Application et de Développeur Web et Web Mobile, je n'ai de cesse que d'apprendre, me former et développer, développer, développer. </p>
 
         <p>
-Java, Springboot, React, PHP, Symfony, SQL, sont loin d'être des inconnus.
+Java, Springboot, React, PHP, Symfony, SQL, sont loin d'être des inconnus. Et je les utilise chaque jour pour donner à vie à toutes les idées que je peux avoir.
 <p>
 
 J'ai développé un site pour une professionnelle en PHP Symfony et je l'ai déployé.
 J'ai conçu et développé une application PWA en java springboot et react.
 J'ai approché de langage ABAP de SAP.
+J'ai développé des API.
+J'ai développé une base de données, une API pour l'édition de factures.
 </p>
 
 <p>
-J'ai des milliers d'idées en tête, et je travaille sur l'une d'entre elle actuellement. 
+J'ai des milliers d'idées en tête, et je travaille sur l'une d'entre elle actuellement, un projet qui fonctionne avec une base de données, 
+une API, dans le but de créer une application simple d'utilisation et accessible à tous les publics. 
 </p>
 
-Je reste disponible pour un poste de développeuse et pour mettre mon énergie, ma motivation et ma bonne humeur au service de votre entreprise !
+Curieuse et motivée, je suis intéressée par les challenges et opportunités qui peuvent se présenter à moi.
         </p>
+        <p>
+  Pour en savoir plus, {' '}
+  <Link 
+    to="/contact" 
+    style={{ 
+      color: '#000000', 
+      textDecoration: 'none',
+      fontWeight: 'bold'
+    }}
+  >
+    contactez-moi
+  </Link> !
+</p>
       </div>
     </div>
   );

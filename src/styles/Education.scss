@@ -1,0 +1,155 @@
+.formation {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  
+    h2 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 3rem;
+      font-size: 2rem;
+      
+      svg {
+        margin-right: 1rem;
+        color: #3498db;
+      }
+    }
+  
+    .formations-timeline {
+      position: relative;
+      
+      &::before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 2px;
+        height: 100%;
+        background: #e0e0e0;
+      }
+    }
+  
+    .formation-item {
+      background: white;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      position: relative;
+      width: calc(50% - 30px);
+      margin-left: auto;
+      
+      &:nth-child(even) {
+        margin-left: 0;
+        margin-right: auto;
+      }
+  
+      &::before {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: #3498db;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+  
+      &:nth-child(odd)::before {
+        left: -40px;
+      }
+  
+      &:nth-child(even)::before {
+        right: -40px;
+      }
+    }
+  
+    .formation-header {
+      margin-bottom: 1rem;
+  
+      h3 {
+        color: #2c3e50;
+        margin-bottom: 0.5rem;
+        font-size: 1.3rem;
+      }
+    }
+  
+    .formation-meta {
+      display: flex;
+      gap: 1rem;
+      color: #7f8c8d;
+      font-size: 0.9rem;
+  
+      span {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+    }
+  
+    .formation-content {
+      h4 {
+        color: #3498db;
+        margin-bottom: 1rem;
+      }
+  
+      .formation-description {
+        color: #34495e;
+        margin-bottom: 1rem;
+      }
+  
+      .competences-acquises, .certifications {
+        h5 {
+          color: #2c3e50;
+          margin-bottom: 0.5rem;
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+        }
+  
+        ul {
+          list-style: none;
+          padding-left: 1rem;
+  
+          li {
+            position: relative;
+            margin-bottom: 0.5rem;
+            color: #34495e;
+  
+            &::before {
+              content: "•";
+              color: #3498db;
+              position: absolute;
+              left: -1rem;
+            }
+          }
+        }
+      }
+    }
+  
+    @media (max-width: 768px) {
+      .formations-timeline::before {
+        left: 0;
+      }
+  
+      .formation-item {
+        width: calc(100% - 30px);
+        margin-left: 30px;
+        margin-right: 0;
+  
+        &:nth-child(even) {
+          margin-left: 30px;
+          margin-right: 0;
+        }
+  
+        &::before {
+          left: -40px;
+        }
+  
+        &:nth-child(even)::before {
+          left: -40px;
+          right: auto;
+        }
+      }
+    }
+  }
