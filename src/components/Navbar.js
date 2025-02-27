@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import '../styles/Navbar.scss';
@@ -7,6 +7,7 @@ import '../styles/Navbar.scss';
 function Navbar() {
 
   const [isOpen, setIsOpen] = useState(false);
+
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -16,21 +17,24 @@ function Navbar() {
     setIsOpen(false);
   };
 
-
+  
   return (
     <nav className="navbar">
       <div className="navbar-content">
 
-          <Link to="/" className="nav-brand" onClick={closeMenu}>
-          Mon CV
+      <Link to="/" className="nav-brand" onClick={closeMenu}>
+          THEBAULT Ariane
         </Link>
 
-        <button className="menu-toggle" onClick={toggleMenu}>
+        <button 
+          className="menu-toggle" 
+          onClick={toggleMenu}
+          aria-label="Menu principal"
+        >
           <FontAwesomeIcon icon={isOpen ? faTimes : faBars} />
         </button>
 
         <div className={`nav-links ${isOpen ? 'active' : ''}`}>
-
           <NavLink to="/" onClick={closeMenu}>
             Accueil
           </NavLink>
