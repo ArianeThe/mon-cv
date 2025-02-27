@@ -22,7 +22,7 @@ function Navbar() {
       <div className="navbar-content">
 
           <Link to="/" className="nav-brand" onClick={closeMenu}>
-          Portfolio
+          Mon CV
         </Link>
 
         <button className="menu-toggle" onClick={toggleMenu}>
