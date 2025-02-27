@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Link, NavLink, useLocation } from 'react-router-dom';
+import React, { useState} from 'react';
+import { Link, NavLink} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import '../styles/Navbar.scss';
@@ -17,7 +17,7 @@ function Navbar() {
     setIsOpen(false);
   };
 
-  
+
   return (
     <nav className="navbar">
       <div className="navbar-content">
