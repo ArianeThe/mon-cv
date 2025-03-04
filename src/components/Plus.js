@@ -13,7 +13,7 @@ function Plus() {
         "Projet personnel",
         "Bac à sable pour montée en compétences"
       ],
-      technologies: [, "Java", "Spring", "Thymleaf"],
+      technologies: ["Java", "Spring", "Thymleaf"],
       lien: "https://moviesetmoi.onrender.com/"
     }
 
