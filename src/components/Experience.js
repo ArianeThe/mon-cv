@@ -7,19 +7,6 @@ function Experience() {
     {
       id: 1,
       poste: "Conceptrice Développeuse d'Applications",
-      entreprise: "Projet Personnel",
-      periode: "01/2025 - ce jour",
-      lieu: "Casson",
-      description: [
-        "Conception d'un site de présentation de films et séries, servant également de bac à sable",
-        "Utilsation du site comme outils de montée en compétences",
-        "Développement de la partie Front-End et Back End"
-      ],
-      technologies: [, "Java", "Spring", "Thymleaf"]
-    },
-    {
-      id: 2,
-      poste: "Conceptrice Développeuse d'Applications",
       entreprise: "Mismo",
       periode: "12/2023 - 05/2024",
       lieu: "La Chapelle sur Erdre",
@@ -33,7 +20,7 @@ function Experience() {
       technologies: ["React", "Java", "Spring", "SQLServer"]
     },
     {
-        id: 3,
+        id: 2,
         poste: "Conceptrice Développeuse d'Applications",
         entreprise: "Projet personnel",
         periode: "12/2024",
@@ -47,7 +34,7 @@ function Experience() {
         technologies: ["Java", "Spring", "Thymleaf"]
       },
     {
-      id: 4,
+      id: 3,
       poste: "Conceptrice Développeuse d'Applications",
       entreprise: "Projet personnel",
       periode: "02/2024",
@@ -61,7 +48,7 @@ function Experience() {
       technologies: ["PHP", "Symfony", "CSS", "JS"]
     },
     {
-        id: 5,
+        id: 4,
         poste: "Conceptrice Développeuse d'Applications",
         entreprise: "Projet personnel",
         periode: "01/2023 - 02/2023",
@@ -77,7 +64,7 @@ function Experience() {
         technologies: ["PHP", "Symfony", "MySQL", "JS"]
       },
       {
-        id: 6,
+        id: 5,
         poste: "Développeuse Web et Web Mobile",
         entreprise: "InterHop",
         periode: "10/2022 - 11/2022",
@@ -91,7 +78,7 @@ function Experience() {
         technologies: ["PHP", "Symfony", "MySQL", "GitLab"]
       },
       {
-        id: 7,
+        id: 6,
         poste: "Assistante Administrative",
         entreprise: "Synergie - Anvolia - Océa Smart Building",
         periode: "10/2017 - 01/2022",
@@ -104,7 +91,7 @@ function Experience() {
         technologies: ["Word", "Excel", "ERP maison"]
       },
       {
-        id: 8,
+        id: 6,
         poste: "Commis de cuisine et Assistante manager en restauration rapide",
         entreprise: "Quick - Stratto - La Cabane",
         periode: "1997 - 2014",
