@@ -30,7 +30,16 @@ function Home() {
       <div className="about-section">
         <h3>À propos de moi</h3>
         <p>
-        Forte de mes deux titres professionnels de Concepteur Développeur d'Application et de Développeur Web et Web Mobile, je n'ai de cesse que d'apprendre, me former et développer, développer, développer. </p>
+        20 ans d'expériences professionnelles à mettre au service du développement et de la conception d'applications et/ou de solutions web et web mobile.
+
+Le travail d'équipe, l'autonomie, la rigueur, le respect des délais n'ont pas de secret pour moi.
+
+Concevoir, développer et mettre en oeuvre les technologies et méthodologies pour faire des idées de véritables projets utiles et viables font partie de ce qui me motive.
+
+Ma curiosité et ma détermination m'a permis et me permet de m'auto former sur des frameworks, librairies ou langages qui me sont inconnus ou très peu connus.
+
+Junior dans cette nouvelle vie professionnelle, mais avec une expérience du monde de l'entreprise solide, je répondrai à toutes les questions que mon profil peut vous poser.
+     </p>
 
         <p>
 Java, Springboot, React, PHP, Symfony, SQL, sont loin d'être des inconnus. Et je les utilise chaque jour pour donner à vie à toutes les idées que je peux avoir.
