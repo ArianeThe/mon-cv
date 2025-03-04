@@ -33,10 +33,11 @@ function Home() {
         20 ans d'expériences professionnelles à mettre au service du développement et de la conception d'applications et/ou de solutions web et web mobile.
 
 Le travail d'équipe, l'autonomie, la rigueur, le respect des délais n'ont pas de secret pour moi.
+<p>
 
 Concevoir, développer et mettre en oeuvre les technologies et méthodologies pour faire des idées de véritables projets utiles et viables font partie de ce qui me motive.
 
-Ma curiosité et ma détermination m'a permis et me permet de m'auto former sur des frameworks, librairies ou langages qui me sont inconnus ou très peu connus.
+Ma curiosité et ma détermination m'a permis et me permet de m'auto former sur des frameworks, librairies ou langages qui me sont inconnus ou très peu connus.</p>
 
 Junior dans cette nouvelle vie professionnelle, mais avec une expérience du monde de l'entreprise solide, je répondrai à toutes les questions que mon profil peut vous poser.
      </p>
