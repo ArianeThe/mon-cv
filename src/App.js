@@ -5,6 +5,7 @@ import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Education from './components/Education';
 import Contact from './components/Contact';
+import Plus from './components/Plus';
 import './styles/App.scss';
 import { Helmet } from 'react-helmet';
 import backgroundImage from './assets/images/fde.jpg';
@@ -23,6 +24,7 @@ function App() {
             <Route path="/experience" element={<Experience />} />
             <Route path="/competences" element={<Skills />} />
             <Route path="/formation" element={<Education />} />
+            <Route path="/plus" element={<Plus />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>

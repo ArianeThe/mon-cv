@@ -51,6 +51,10 @@ function Navbar() {
             Formations
           </NavLink>
 
+          <NavLink to="/plus" onClick={closeMenu}>
+            Productions
+          </NavLink>
+
           <NavLink to="/contact" onClick={closeMenu}>
             Contact
           </NavLink>

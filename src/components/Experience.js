@@ -91,7 +91,7 @@ function Experience() {
         technologies: ["Word", "Excel", "ERP maison"]
       },
       {
-        id: 6,
+        id: 7,
         poste: "Commis de cuisine et Assistante manager en restauration rapide",
         entreprise: "Quick - Stratto - La Cabane",
         periode: "1997 - 2014",
