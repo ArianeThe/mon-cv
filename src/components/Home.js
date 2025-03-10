@@ -10,7 +10,7 @@ function Home() {
         <div className="profile-image">
           {/* Ajoutez votre photo ici */}
           <img 
-          src='/me.jpg'
+          src='/photocv.jpg'
           alt='THEBAULT Ariane'></img>
         </div>
         <h1>THEBAULT Ariane</h1>
