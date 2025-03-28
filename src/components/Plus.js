@@ -17,6 +17,19 @@ function Plus() {
       lien: "https://moviesetmoi.onrender.com/"
     }
 
+    {
+      id: 2,
+      site: "Easy Factures",
+      theme: "Gestion relation client",
+      description: [
+        "Conception d'un site permettant de remplir une facture en quelques clics et de l'éditer en format pdf",
+        "Projet personnel",
+        "Recherche de simplicité d'utilisation, travail sur la sécurisation des données"
+      ],
+      technologies: ["React", "JS", "CSS"],
+      lien: "non disponible pour l'instant"
+    }
+
   ];
 
   return (
