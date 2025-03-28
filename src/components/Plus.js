@@ -15,7 +15,7 @@ function Plus() {
       ],
       technologies: ["Java", "Spring", "Thymleaf"],
       lien: "https://moviesetmoi.onrender.com/"
-    }
+    },
 
     {
       id: 2,
