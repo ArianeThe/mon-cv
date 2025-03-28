@@ -24,10 +24,10 @@ function Plus() {
       description: [
         "Conception d'un site permettant de remplir une facture en quelques clics et de l'éditer en format pdf",
         "Projet personnel",
-        "Recherche de simplicité d'utilisation, travail sur la sécurisation des données"
+        "Recherche de simplicité d'utilisation, travail sur la sécurisation des données, lien vers le site non disponible pour l'instant"
       ],
       technologies: ["React", "JS", "CSS"],
-      lien: "non disponible pour l'instant"
+      lien: ""
     }
 
   ];
