@@ -37,7 +37,7 @@ Le travail d'équipe, l'autonomie, la rigueur, le respect des délais n'ont pas 
 
 Concevoir, développer et mettre en oeuvre les technologies et méthodologies pour faire des idées de véritables projets utiles et viables font partie de ce qui me motive.
 
-Ma curiosité et ma détermination m'a permis et me permet de m'auto former sur des frameworks, librairies ou langages qui me sont inconnus ou très peu connus.</p>
+Ma curiosité et ma détermination m'ont permis et me permettent de m'auto former sur des frameworks, librairies ou langages qui me sont inconnus ou très peu connus.</p>
 
 Junior dans cette nouvelle vie professionnelle, mais avec une expérience du monde de l'entreprise solide, je répondrai à toutes les questions que mon profil peut vous poser.
      </p>
