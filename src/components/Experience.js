@@ -7,6 +7,21 @@ function Experience() {
     {
       id: 1,
       poste: "Conceptrice Développeuse d'Applications",
+      entreprise: "Personnel",
+      periode: "02/2025 - 03/2025",
+      lieu: "Casson",
+      description: [
+        "Conception d'un site d'édition de factures",
+        "Mise en place d'un système de cryptage des données",
+        "Mise en place d'une page de connexion",
+        "Déploiement sur Netlify",
+        "Projet d'application en cours de développement"
+      ],
+      technologies: ["React", "Javascript", "Netlify"]
+    },
+    {
+      id: 2,
+      poste: "Conceptrice Développeuse d'Applications",
       entreprise: "Mismo",
       periode: "12/2023 - 05/2024",
       lieu: "La Chapelle sur Erdre",
@@ -20,7 +35,7 @@ function Experience() {
       technologies: ["React", "Java", "Spring", "SQLServer"]
     },
     {
-        id: 2,
+        id: 3,
         poste: "Conceptrice Développeuse d'Applications",
         entreprise: "Projet personnel",
         periode: "12/2024",
@@ -34,7 +49,7 @@ function Experience() {
         technologies: ["Java", "Spring", "Thymleaf"]
       },
     {
-      id: 3,
+      id: 4,
       poste: "Conceptrice Développeuse d'Applications",
       entreprise: "Projet personnel",
       periode: "02/2024",
@@ -48,7 +63,7 @@ function Experience() {
       technologies: ["PHP", "Symfony", "CSS", "JS"]
     },
     {
-        id: 4,
+        id: 5,
         poste: "Conceptrice Développeuse d'Applications",
         entreprise: "Projet personnel",
         periode: "01/2023 - 02/2023",
@@ -64,7 +79,7 @@ function Experience() {
         technologies: ["PHP", "Symfony", "MySQL", "JS"]
       },
       {
-        id: 5,
+        id: 6,
         poste: "Développeuse Web et Web Mobile",
         entreprise: "InterHop",
         periode: "10/2022 - 11/2022",
@@ -78,7 +93,7 @@ function Experience() {
         technologies: ["PHP", "Symfony", "MySQL", "GitLab"]
       },
       {
-        id: 6,
+        id: 7,
         poste: "Assistante Administrative",
         entreprise: "Synergie - Anvolia - Océa Smart Building",
         periode: "10/2017 - 01/2022",
@@ -91,7 +106,7 @@ function Experience() {
         technologies: ["Word", "Excel", "ERP maison"]
       },
       {
-        id: 7,
+        id: 8,
         poste: "Commis de cuisine et Assistante manager en restauration rapide",
         entreprise: "Quick - Stratto - La Cabane",
         periode: "1997 - 2014",
