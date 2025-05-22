@@ -15,7 +15,7 @@ function Plus() {
         "Gestion de l'hébergement et de la redirection du nom de domaine"
       ],
       technologies: ["React", "JS", "CSS", "OVH", "Netlify"],
-      lien: ""
+      lien: "https://alice-thebault.fr/"
     },
 
         {
