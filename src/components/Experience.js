@@ -6,7 +6,7 @@ function Experience() {
   const experiences = [
        {
       id: 1,
-      poste: "Conceptrice Développeuse d'Applications, Créetrice de micro entreprise",
+      poste: "Conceptrice Développeuse d'Applications, Créatrice de micro entreprise",
       entreprise: "Click 'N Access",
       periode: "04/2025 - ce jour",
       lieu: "Casson",
