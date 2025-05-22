@@ -11,7 +11,7 @@ function Plus() {
       theme: "Site vitrine",
       description: [
         "Recueil du besoin et des attentes client",
-        "Conception, développemt et déploiement du site",
+        "Conception, développement et déploiement du site",
         "Gestion de l'hébergement et de la redirection du nom de domaine"
       ],
       technologies: ["React", "JS", "CSS", "OVH", "Netlify"],
