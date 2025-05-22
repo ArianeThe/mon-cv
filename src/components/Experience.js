@@ -4,8 +4,23 @@ import '../styles/Experience.scss';
 
 function Experience() {
   const experiences = [
-    {
+       {
       id: 1,
+      poste: "Conceptrice Développeuse d'Applications, Créetrice de micro entreprise",
+      entreprise: "Click 'N Access",
+      periode: "04/2025 - ce jour",
+      lieu: "Casson",
+      description: [
+        "Conception, développement et déploiement de sites internet personnalisé",
+        "Conception, développement et déploiement de sites de gestion de rdv",
+        "Recueil du besoin et des attentes clients",
+        "Rédaction cahier des charges et maquettes",
+        "Projet d'application en cours de développement"
+      ],
+      technologies: ["Java", "React", "Javascript", "Netlify"]
+    },
+    {
+      id: 2,
       poste: "Conceptrice Développeuse d'Applications",
       entreprise: "Personnel",
       periode: "02/2025 - 03/2025",
@@ -20,7 +35,7 @@ function Experience() {
       technologies: ["React", "Javascript", "Netlify"]
     },
     {
-      id: 2,
+      id: 3,
       poste: "Conceptrice Développeuse d'Applications",
       entreprise: "Mismo",
       periode: "12/2023 - 05/2024",
@@ -35,7 +50,7 @@ function Experience() {
       technologies: ["React", "Java", "Spring", "SQLServer"]
     },
     {
-        id: 3,
+        id: 4,
         poste: "Conceptrice Développeuse d'Applications",
         entreprise: "Projet personnel",
         periode: "12/2024",
@@ -49,7 +64,7 @@ function Experience() {
         technologies: ["Java", "Spring", "Thymleaf"]
       },
     {
-      id: 4,
+      id: 5,
       poste: "Conceptrice Développeuse d'Applications",
       entreprise: "Projet personnel",
       periode: "02/2024",
@@ -63,7 +78,7 @@ function Experience() {
       technologies: ["PHP", "Symfony", "CSS", "JS"]
     },
     {
-        id: 5,
+        id: 6,
         poste: "Conceptrice Développeuse d'Applications",
         entreprise: "Projet personnel",
         periode: "01/2023 - 02/2023",
@@ -79,7 +94,7 @@ function Experience() {
         technologies: ["PHP", "Symfony", "MySQL", "JS"]
       },
       {
-        id: 6,
+        id: 7,
         poste: "Développeuse Web et Web Mobile",
         entreprise: "InterHop",
         periode: "10/2022 - 11/2022",
@@ -93,7 +108,7 @@ function Experience() {
         technologies: ["PHP", "Symfony", "MySQL", "GitLab"]
       },
       {
-        id: 7,
+        id: 8,
         poste: "Assistante Administrative",
         entreprise: "Synergie - Anvolia - Océa Smart Building",
         periode: "10/2017 - 01/2022",
@@ -106,7 +121,7 @@ function Experience() {
         technologies: ["Word", "Excel", "ERP maison"]
       },
       {
-        id: 8,
+        id: 9,
         poste: "Commis de cuisine et Assistante manager en restauration rapide",
         entreprise: "Quick - Stratto - La Cabane",
         periode: "1997 - 2014",

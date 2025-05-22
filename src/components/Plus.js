@@ -4,20 +4,21 @@ import '../styles/Experience.scss';
 
 function Plus() {
   const plus = [
-    {
+
+        {
       id: 1,
-      site: "Movies et moi",
-      theme: "cinéma et séries",
+      site: "Alice THEBAULT Psychologue",
+      theme: "Site vitrine",
       description: [
-        "Conception d'un site de présentation de films et de séries",
-        "Projet personnel",
-        "Bac à sable pour montée en compétences"
+        "Recueil du besoin et des attentes client",
+        "Conception, développemt et déploiement du site",
+        "Gestion de l'hébergement et de la redirection du nom de domaine"
       ],
-      technologies: ["Java", "Spring", "Thymleaf"],
-      lien: "https://moviesetmoi.onrender.com/"
+      technologies: ["React", "JS", "CSS", "OVH", "Netlify"],
+      lien: ""
     },
 
-    {
+        {
       id: 2,
       site: "Easy Factures",
       theme: "Gestion relation client",
@@ -28,7 +29,21 @@ function Plus() {
       ],
       technologies: ["React", "JS", "CSS"],
       lien: ""
+    },
+    {
+      id: 3,
+      site: "Movies et moi",
+      theme: "cinéma et séries",
+      description: [
+        "Conception d'un site de présentation de films et de séries",
+        "Projet personnel",
+        "Bac à sable pour montée en compétences"
+      ],
+      technologies: ["Java", "Spring", "Thymleaf"],
+      lien: "https://moviesetmoi.onrender.com/"
     }
+
+
 
   ];
 
