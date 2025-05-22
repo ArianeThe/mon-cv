@@ -11,7 +11,7 @@ function Experience() {
       periode: "04/2025 - ce jour",
       lieu: "Casson",
       description: [
-        "Conception, développement et déploiement de sites internet personnalisé",
+        "Conception, développement et déploiement de sites internet personnalisés",
         "Conception, développement et déploiement de sites de gestion de rdv",
         "Recueil du besoin et des attentes clients",
         "Rédaction cahier des charges et maquettes",
