@@ -30,28 +30,28 @@ function Home() {
       <div className="about-section">
         <h3>À propos de moi</h3>
         <p>
-Développeuse web utilisant React et Java au quotidien, je suis prête à mettre mes compétences au service de votre équipe au poste de développeuse web.
+Développeuse web utilisant React et Java au quotidien, je suis prête à mettre mes compétences au service de votre équipe.
 
 Après une reconversion réussie il y a trois ans, j'ai obtenu le titre de Conceptrice Développeuse d'Applications grâce à une alternance chez Mismo, où j'ai conçu une PWA de gestion de notes de frais (Java / React / SQL Server).
 </p>
 <p>
-Ce qui me motive ?
-- Transformer des idées en projets utiles et viables grâce aux bonnes technos et méthodologies.
+Ce qui me motive ?<br/>
+- Transformer des idées en projets utiles et viables grâce aux bonnes technos et méthodologies.<br/>
 
-- Concevoir, développer et déployer des solutions qui tiennent la route.
+- Concevoir, développer et déployer des solutions qui tiennent la route.<br/>
 
 - Explorer sans cesse de nouveaux frameworks, librairies et langages grâce à ma curiosité et ma détermination.
 </p>
 
 <p>
-Mes expériences ?
-Fondatrice de la micro-entreprise Click'N Access, avec des projets concrets pour des professionnels :
+Mes expériences ?<br/>
+Fondatrice de la micro-entreprise Click'N Access, avec des projets concrets pour des professionnels :<br/>
 
-- Site vitrine pour une professionnelle de santé.
+- Site vitrine pour une professionnelle de santé.<br/>
 
-- Application web de facturation simplifiée.
+- Application web de facturation simplifiée.<br/>
 
-Développement de projets personnels :
+Développement de projets personnels :<br/>
 
 Application films/séries.  Ce projet m'a permis d'explorer de nouvelles stacks et de renforcer mes compétences fullstack.
 </p>
