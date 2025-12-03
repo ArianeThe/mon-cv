@@ -4,8 +4,36 @@ import '../styles/Experience.scss';
 
 function Experience() {
   const experiences = [
-       {
+           {
       id: 1,
+      poste: "Conceptrice Développeuse d'Applications",
+      entreprise: "Click'N Acces",
+      periode: "12/2025 - ce jour",
+      lieu: "Casson",
+      description: [
+        "refactorisation d'un projet en vue de sa migration vers Tauri",
+        "Conception et développement des pages de saisie nouveau patient",
+        "Utilisation de Copilot dans le cadre du développement",
+        "Rédaction de documentation technique",
+      ],
+      technologies: ["Java", "React", "Copilot", "Git"]
+    },
+       {
+      id: 2,
+      poste: "Développeuse Web",
+      entreprise: "Feel Agile",
+      periode: "06/2025 - 12/2025",
+      lieu: "Casson",
+      description: [
+        "Réception, analyse et résolution de tickets",
+        "Stabilisation des bugs suite à une migration",
+        "Méthode agile avec tableau kanban",
+        "Rédaction de documentation technique",
+      ],
+      technologies: ["Java", "React", "POstgreSQL", "Git"]
+    },
+    {
+      id: 3,
       poste: "Conceptrice Développeuse d'Applications, Créatrice de micro entreprise",
       entreprise: "Click 'N Access",
       periode: "04/2025 - ce jour",
@@ -20,7 +48,7 @@ function Experience() {
       technologies: ["Java", "React", "Javascript", "Netlify"]
     },
     {
-      id: 2,
+      id: 4,
       poste: "Conceptrice Développeuse d'Applications",
       entreprise: "Personnel",
       periode: "02/2025 - 03/2025",
@@ -35,8 +63,8 @@ function Experience() {
       technologies: ["React", "Javascript", "Netlify"]
     },
     {
-      id: 3,
-      poste: "Conceptrice Développeuse d'Applications",
+        id: 5,
+        poste: "Conceptrice Développeuse d'Applications",
       entreprise: "Mismo",
       periode: "12/2023 - 05/2024",
       lieu: "La Chapelle sur Erdre",
@@ -48,26 +76,12 @@ function Experience() {
         "Collaboration avec une équipe"
       ],
       technologies: ["React", "Java", "Spring", "SQLServer"]
-    },
-    {
-        id: 4,
-        poste: "Conceptrice Développeuse d'Applications",
-        entreprise: "Projet personnel",
-        periode: "12/2024",
-        lieu: "Casson",
-        description: [
-          "Refonte d'un site vitrine pour une professionnelle",
-          "Recueil du besoin",
-          "Maquettage et rédaction sur Figma",
-          "Développement Front et back End"
-        ],
-        technologies: ["Java", "Spring", "Thymleaf"]
       },
     {
-      id: 5,
+      id: 6,
       poste: "Conceptrice Développeuse d'Applications",
       entreprise: "Projet personnel",
-      periode: "02/2024",
+      periode: "02 - 12/2024",
       lieu: "Casson",
       description: [
         "Conception et développement d'un site vitrine pour une professionnelle",
@@ -78,7 +92,7 @@ function Experience() {
       technologies: ["PHP", "Symfony", "CSS", "JS"]
     },
     {
-        id: 6,
+        id: 7,
         poste: "Conceptrice Développeuse d'Applications",
         entreprise: "Projet personnel",
         periode: "01/2023 - 02/2023",
@@ -94,7 +108,7 @@ function Experience() {
         technologies: ["PHP", "Symfony", "MySQL", "JS"]
       },
       {
-        id: 7,
+        id: 8,
         poste: "Développeuse Web et Web Mobile",
         entreprise: "InterHop",
         periode: "10/2022 - 11/2022",
@@ -108,7 +122,7 @@ function Experience() {
         technologies: ["PHP", "Symfony", "MySQL", "GitLab"]
       },
       {
-        id: 8,
+        id: 9,
         poste: "Assistante Administrative",
         entreprise: "Synergie - Anvolia - Océa Smart Building",
         periode: "10/2017 - 01/2022",
@@ -121,7 +135,7 @@ function Experience() {
         technologies: ["Word", "Excel", "ERP maison"]
       },
       {
-        id: 9,
+        id: 10,
         poste: "Commis de cuisine et Assistante manager en restauration rapide",
         entreprise: "Quick - Stratto - La Cabane",
         periode: "1997 - 2014",

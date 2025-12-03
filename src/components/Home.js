@@ -30,7 +30,7 @@ function Home() {
       <div className="about-section">
         <h3>À propos de moi</h3>
         <p>
-Développeuse web utilisant React et Java au quotidien, je suis prête à mettre mes compétences au service de votre équipe.
+Développeuse web utilisant React et Java au quotidien, je suis prête à mettre mes compétences au service de votre équipe.<br/>
 
 Après une reconversion réussie il y a trois ans, j'ai obtenu le titre de Conceptrice Développeuse d'Applications grâce à une alternance chez Mismo, où j'ai conçu une PWA de gestion de notes de frais (Java / React / SQL Server).
 </p>
