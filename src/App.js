@@ -9,6 +9,9 @@ import Plus from './components/Plus';
 import './styles/App.scss';
 import { Helmet } from 'react-helmet';
 import backgroundImage from './assets/images/fde.jpg';
+import Footer from './components/Footer';
+import Mentions from './components/Mentions';
+import Confidentialite from './components/Confidentialite';
 
 function App() {
   return (
@@ -26,8 +29,11 @@ function App() {
             <Route path="/formation" element={<Education />} />
             <Route path="/plus" element={<Plus />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/mentions" element={<Mentions />} />
+            <Route path="/confidentialite" element={<Confidentialite />} />
           </Routes>
         </main>
+        <Footer />
       </div>
     </Router>
   );

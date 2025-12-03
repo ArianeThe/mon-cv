@@ -50,7 +50,7 @@ function Plus() {
   return (
     <div className="experience">
       <Helmet>
-        <title>Productions - Votre Nom</title>
+        <title>THEBAULT Ariane</title>
       </Helmet>
 
       <h2>Productions</h2>

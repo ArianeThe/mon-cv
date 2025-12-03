@@ -7,11 +7,11 @@ function Experience() {
            {
       id: 1,
       poste: "Conceptrice Développeuse d'Applications",
-      entreprise: "Click'N Acces",
+      entreprise: "Click'N Access",
       periode: "12/2025 - ce jour",
       lieu: "Casson",
       description: [
-        "refactorisation d'un projet en vue de sa migration vers Tauri",
+        "Refactorisation d'un projet en vue de sa migration vers Tauri",
         "Conception et développement des pages de saisie nouveau patient",
         "Utilisation de Copilot dans le cadre du développement",
         "Rédaction de documentation technique",
@@ -40,7 +40,6 @@ function Experience() {
       lieu: "Casson",
       description: [
         "Conception, développement et déploiement de sites internet personnalisés",
-        "Conception, développement et déploiement de sites de gestion de rdv",
         "Recueil du besoin et des attentes clients",
         "Rédaction cahier des charges et maquettes",
         "Projet d'application en cours de développement"

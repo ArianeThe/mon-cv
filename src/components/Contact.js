@@ -12,7 +12,7 @@ function Contact() {
   return (
     <div className="contact">
       <Helmet>
-        <title>Contact - Portfolio</title>
+        <title>THEBAULT Ariane</title>
       </Helmet>
 
       <h2>Me Contacter</h2>

@@ -62,7 +62,7 @@ function Formation() {
   return (
     <div className="formation">
       <Helmet>
-        <title>Formation - Votre Nom</title>
+        <title>THEBAULT Ariane</title>
       </Helmet>
 
       <h2>
