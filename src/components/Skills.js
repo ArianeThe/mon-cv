@@ -34,7 +34,7 @@ function Skills() {
       name: "Technologies Frontend",
       icon: faPalette,
       skills: [
-        { name: "React", level: 2, description: "En cours d'apprentissage" },
+        { name: "React", level: 3, description: "Bonne maîtrise" },
         { name: "HTML5/CSS3", level: 3, description: "Bonne maîtrise" },
         { name: "JavaScript", level: 2, description: "Pratique régulière" }
       ]

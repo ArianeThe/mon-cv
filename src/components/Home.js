@@ -30,35 +30,36 @@ function Home() {
       <div className="about-section">
         <h3>À propos de moi</h3>
         <p>
-        20 ans d'expériences professionnelles à mettre au service du développement et de la conception d'applications et/ou de solutions web et web mobile.
+Développeuse web utilisant React et Java au quotidien, je suis prête à mettre mes compétences au service de votre équipe au poste de développeuse web.
 
-Le travail d'équipe, l'autonomie, la rigueur, le respect des délais n'ont pas de secret pour moi.
+Après une reconversion réussie il y a trois ans, j'ai obtenu le titre de Conceptrice Développeuse d'Applications grâce à une alternance chez Mismo, où j'ai conçu une PWA de gestion de notes de frais (Java / React / SQL Server).
 <p>
 
-Concevoir, développer et mettre en oeuvre les technologies et méthodologies pour faire des idées de véritables projets utiles et viables font partie de ce qui me motive.
+Ce qui me motive ?
+- Transformer des idées en projets utiles et viables grâce aux bonnes technos et méthodologies.
 
-Ma curiosité et ma détermination m'ont permis et me permettent de m'auto former sur des frameworks, librairies ou langages qui me sont inconnus ou très peu connus.</p>
+- Concevoir, développer et déployer des solutions qui tiennent la route.
 
-Junior dans cette nouvelle vie professionnelle, mais avec une expérience du monde de l'entreprise solide, je répondrai à toutes les questions que mon profil peut vous poser.
-     </p>
-
-        <p>
-Java, Springboot, React, PHP, Symfony, SQL, sont loin d'être des inconnus. Et je les utilise chaque jour pour donner à vie à toutes les idées que je peux avoir.
-<p>
-
-J'ai développé un site pour une professionnelle en PHP Symfony et je l'ai déployé.
-J'ai conçu et développé une application PWA en java springboot et react.
-J'ai approché de langage ABAP de SAP.
-J'ai développé des API.
-J'ai développé une base de données, une API pour l'édition de factures.
+- Explorer sans cesse de nouveaux frameworks, librairies et langages grâce à ma curiosité et ma détermination.
 </p>
 
 <p>
-J'ai des milliers d'idées en tête, et je travaille sur l'une d'entre elle actuellement, un projet qui fonctionne avec une base de données, 
-une API, dans le but de créer une application simple d'utilisation et accessible à tous les publics. 
+Mes expériences ?
+Fondatrice de la micro-entreprise Click'N Access, avec des projets concrets pour des professionnels :
+
+- Site vitrine pour une professionnelle de santé.
+
+- Application web de facturation simplifiée.
+
+Développement de projets personnels :
+
+Application films/séries.  Ce projet m'a permis d'explorer de nouvelles stacks et de renforcer mes compétences fullstack.
 </p>
 
-Curieuse et motivée, je suis intéressée par les challenges et opportunités qui peuvent se présenter à moi.
+<p>
+Polyvalente, motivée et rigoureuse, j'aime suivre un projet de A à Z, du front au back, et livrer des solutions fiables et adaptées aux besoins des utilisateurs.
+
+Curieuse et passionnée, je suis toujours prête à relever de nouveaux challenges et à mettre mon énergie et mon savoir faire au service de vos projets.
         </p>
         <p>
   Pour en savoir plus, {' '}
