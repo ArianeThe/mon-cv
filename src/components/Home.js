@@ -33,8 +33,8 @@ function Home() {
 Développeuse web utilisant React et Java au quotidien, je suis prête à mettre mes compétences au service de votre équipe au poste de développeuse web.
 
 Après une reconversion réussie il y a trois ans, j'ai obtenu le titre de Conceptrice Développeuse d'Applications grâce à une alternance chez Mismo, où j'ai conçu une PWA de gestion de notes de frais (Java / React / SQL Server).
+</p>
 <p>
-
 Ce qui me motive ?
 - Transformer des idées en projets utiles et viables grâce aux bonnes technos et méthodologies.
 
